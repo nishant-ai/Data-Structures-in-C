@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #define SIZE 5
 
+// circular queue
 typedef struct queue{
     int queue[SIZE];
     int FRONT;
